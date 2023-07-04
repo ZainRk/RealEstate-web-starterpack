@@ -1,0 +1,20 @@
+.hero-wrapper{
+    color:white;
+    position:relative;
+    padding-bottom:2rem;
+}
+
+.hero-container{
+    justify-content:space-between;
+    align-items:flex-end;
+}
+/* 
+// right side */
+
+.image-cont{
+    width:30rem;
+    height:35rem;
+    overflow:hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rbga(255,255,255,0.12);
+}
