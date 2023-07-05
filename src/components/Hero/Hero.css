@@ -16,5 +16,61 @@
     height:35rem;
     overflow:hidden;
     border-radius: 15rem 15rem 0 0;
-    border: 8px solid rbga(255,255,255,0.12);
+    border: 8px solid rgba(255,255,255,0.12);
+}
+
+.register{
+    font-size: medium;
+    margin-top: 2rem;
+}
+.orange{
+    height: 4rem;
+    width:4rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position: absolute;
+    right: 5%;
+    top:20%;
+    z-index: -1;
+
+}
+.image-cont>img{
+    width:100%;
+    height:100%;
+}
+
+.hero-align{
+    text-align: center;
+    padding: 1em;
+}
+.hero-left{
+    gap:3rem;
+    margin:1rem;
+}
+
+.hero-title>h1{
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+.hero-title{
+    position: relative;
+    z-index:1;
+}
+
+.date{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+
+.date-format{
+    display: flex;
+    justify-content: center;
+}
+.material-symbols-outlined{
+    font-size:2rem;
+}
+.date-text{
+    font-size: 1.5rem;
 }

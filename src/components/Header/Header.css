@@ -8,6 +8,7 @@
     padding-top: 1rem ;
     padding-bottom: 1rem;
     color:var(--secondary);
+    z-index:10000;
 }
 
 .h-menu{
@@ -16,4 +17,14 @@
 
 .h-menu>*:hover{
     cursor: pointer;
+}
+
+.orange-icon{
+    height: 2rem;
+    width:2rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position: absolute;
+    left:6%;
+    top:1%;
 }

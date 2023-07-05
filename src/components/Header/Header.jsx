@@ -4,8 +4,8 @@ const Header=()=>{
     return(
         <section className='h-wrapper'>
             <div className='flexCenter padding innerWidth h-container'>
-
-                <a>Conference</a>
+                <div className="orange-icon"/>
+                <h1>Conference</h1>
 
                 <div className="flexCenter h-menu">
                     <a href="">
