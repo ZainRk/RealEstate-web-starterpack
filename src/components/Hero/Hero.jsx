@@ -17,14 +17,14 @@ const Hero=()=>{
                         CONFERENCE</h1>
                         <div className="date paddings hero-align">
                             <div className="date-format">
-                            <span class="material-symbols-outlined">
+                            <span className="material-symbols-outlined">
                             calendar_today
                             </span>
                             <span className="date-text">7th July 2023</span>
                             </div>
                         
                             <div className="date-format">
-                            <span class="material-symbols-outlined">
+                            <span className="material-symbols-outlined">
                             map
                             </span>
                             <span className="date-text">NIT Jalandhar</span>
@@ -45,7 +45,7 @@ const Hero=()=>{
 
                   
                 </div>
-                <div className="flexCenter hero-right paddings">
+                <div className="flexColCenter hero-right paddings">
                     <div className="image-cont">
                         <img src="./hero-image.jpg" alt="" />
                     </div>

@@ -1,2 +1,31 @@
+.about-wrapper{
+    background-color: #F5EFE7;
+    z-index:-1;
+}
 
 
+.about-text{
+    font-size: 1rem;
+    padding-top: 5%;
+    line-height: 1.5rem;
+}
+
+.about-title>h1{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.right{
+    z-index:100;
+}
+.orange-about{
+    height: 4rem;
+    width:4rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position: absolute;
+    right: 29%;
+    top:64%;
+    z-index: -1;
+
+}
