@@ -19,9 +19,11 @@ const Header = () => {
           <a href="" class="">
             Get Started
           </a>
-          <a href="" class="">
-            Contact
-          </a>
+          <button className="button">
+            <a href="" class="">
+              Contact
+            </a>
+          </button>
         </div>
       </div>
     </section>
