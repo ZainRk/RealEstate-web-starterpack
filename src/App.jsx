@@ -1,7 +1,13 @@
-
+import Header from "./utils/Components/Header";
 function App() {
   return (
-    <span>Gadget Galaxy</span>
+    <div >
+      <div>
+        <div className="white-gradient">
+          <Header/>
+        </div>
+      </div>
+    </div>
   );
 }
 
