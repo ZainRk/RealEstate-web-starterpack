@@ -7,11 +7,6 @@ const Footer = () => {
         <div>
             <h1>Footer</h1>
         </div>
-        <div>
-            <h2>
-                Hello
-            </h2>
-        </div>
         </section>
         
     );
