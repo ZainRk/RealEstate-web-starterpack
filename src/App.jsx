@@ -1,7 +1,10 @@
+import Header from "./components/header/Header";
 
 function App() {
   return (
-    <span>subscribe Zainkeepscode</span>
+    <div class="app">
+      <Header />
+    </div>
   );
 }
 
