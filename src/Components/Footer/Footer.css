@@ -1,19 +1,34 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 15px;
   background-color: #000; /* Black background */
   color: #fff; /* White text */
-  border: 5px solid; /* Adjust border width as needed */
-  border-image-source: linear-gradient(
-    to Right,
-    red,
-    orange,
-    yellow,
-    green,
-    blue
-  );
-  border-image-slice: 1;
+  border: 5px solid transparent; /* Adjust border width as needed */
+  animation: borderGlow 5s linear infinite;
+}
+
+@keyframes borderGlow {
+  0% { 
+    border: 5px solid transparent;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  25% {
+    border: 5px solid red; /* Adjust colors as needed */
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+  }
+  50% {
+    border: 5px solid yellow; /* Adjust colors as needed */
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+  }
+  75% {
+    border: 5px solid blue; /* Adjust colors as needed */
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
+  }
+  100% {
+    border: 5px solid transparent;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
 }
 
 .footer__logo {
@@ -22,7 +37,7 @@
 }
 
 .footer__logo img {
-  height: 50px;
+  height: 69px;
   transition: transform 0.3s ease-in-out; /* Add transition to logo */
 }
 
@@ -36,7 +51,7 @@
 
 .footer__content p {
   display: flexbox;
-  margin: 0.5em;
+  margin-top: 1rem;
 }
 
 /* border-image-source sets the image to be used as the border. 
