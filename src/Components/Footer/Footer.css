@@ -4,9 +4,10 @@
   padding: 20px;
   background-color: #000; /* Black background */
   color: #fff; /* White text */
-  border: 6px solid; /* Adjust border width as needed */
-  border-image-source: linear-gradient(to Right,
-    red ,
+  border: 5px solid; /* Adjust border width as needed */
+  border-image-source: linear-gradient(
+    to Right,
+    red,
     orange,
     yellow,
     green,
@@ -17,7 +18,7 @@
 
 .footer__logo {
   display: flex;
-  align-items:center; /* Align logo and text vertically */
+  align-items: center; /* Align logo and text vertically */
 }
 
 .footer__logo img {
@@ -26,7 +27,7 @@
 }
 
 .footer__logo img:hover {
-  transform: scale(1.15); /* Grow logo when hovered */
+  transform: scale(1.2) rotate(-180deg); /* Grow logo when hovered */
 }
 
 .footer__logo .logo-text {
@@ -34,9 +35,9 @@
 }
 
 .footer__content p {
-  margin: 0;
+  display: flexbox;
+  margin: 0.5em;
 }
-
 
 /* border-image-source sets the image to be used as the border. 
     The linear-gradient(to Right, red, orange, yellow, green, blue) function 
