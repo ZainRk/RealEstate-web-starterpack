@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+}
+
+.footer__logo img {
+  height: 50px;
+}
+
+.footer__content p {
+  margin: 0;
+}
