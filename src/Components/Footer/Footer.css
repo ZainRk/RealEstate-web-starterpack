@@ -5,7 +5,7 @@
   background-color: #000; /* Black background */
   color: #fff; /* White text */
   border: 5px solid transparent; /* Adjust border width as needed */
-  animation: borderGlow 5s linear infinite;
+  animation: borderGlow 20s linear infinite;
 }
 
 @keyframes borderGlow {
