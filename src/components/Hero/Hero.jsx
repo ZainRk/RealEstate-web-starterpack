@@ -1,5 +1,8 @@
-import React from 'react'
-import"./Hero.css"
+import React from 'react';
+import"./Hero.css";
+import CountUp from 'react-countup';
+
+
 
 const Hero = () => {
   return (
@@ -16,14 +19,41 @@ const Hero = () => {
 <br/>Engineering consultancy that specializes in research, design, supervision,<br/> management, and commissioning of Civil and Structural Engineering projects. </span>
             <span></span>
         </div>
-    </div>
+        <div className="flexCenter stats">
+            <div className="flexColCenter stat">
+                <span>
+                    <CountUp start={88000} end={90000} duration={4}/> 
+                    <span>+</span>
+                    </span>
+                    <span className='secondaryText'>Premium Products</span>
+            </div>
+
+            <div className="flexColCenter stat">
+                <span>
+                    <CountUp start={1950} end={1999} duration={4}/> 
+                    <span>+</span>
+                    </span>
+                    <span className='secondaryText'>Happy Customers</span>
+            </div>
+
+            <div className="flexColCenter stat">
+                <span>
+                    <CountUp end={28} duration={4}/> 
+                    <span>+</span>
+                    </span>
+                    <span className='secondaryText'>Award Winning</span>
+                </div>
+
+            <div/>
+          </div>
+        </div>
 
 
 
         {/* right side */}
         <div className="flexCenter hero-right">
             <div className="image-container">
-                <img src="./hero-image.png" alt=""/>
+                <img src="./UMC3.jpg" alt=""/>
             </div>
         </div>
 
