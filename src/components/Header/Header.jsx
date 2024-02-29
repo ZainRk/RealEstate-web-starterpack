@@ -7,8 +7,8 @@ const Header = () => {
     <section className="h-wrapper">
     <div className="flexCenter paddings h-container">
       <span>
-      <img src="./mariposa.png" alt="logo" width={20}/>
-    <a href=""><strong><em>Gift of Faith Consultants</em></strong></a>
+      <img src="./mariposa.png" alt="logo" width={75}/>
+    <a href=""className='companyName'><strong><em>Gift of Faith Consultants</em></strong></a>
       </span>
       
       

@@ -6,18 +6,17 @@ const Hero = () => {
    <section className='hero-wrapper'>
     <div className="paddings innerWidth flexCenter hero-container">
      {/* left side */}
-        <div className="hero-left">
+        <div className="flexColStart hero-left">
             <div className="hero-title">
-                <h1>SPIRIT OF EXCELLENCY <br/>EQUALS EXCELLENT PRODUCT<br/></h1>
+                <h1><em>A Spirit of excellency</em> <br/><em>equals excellent products!</em><br/></h1>
             </div>
 
-            <div className="hero-des">
+            <div className="flexColStart hero-des">
             <span><br/>Gift of Faith Consultants is a distinguished Civil and Structural
 <br/>Engineering consultancy that specializes in research, design, supervision,<br/> management, and commissioning of Civil and Structural Engineering projects. </span>
             <span></span>
         </div>
-
-        </div>
+    </div>
 
 
 

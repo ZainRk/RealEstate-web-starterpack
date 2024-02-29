@@ -8,6 +8,7 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: var(--secondary);
+    
 }
 
 .h-menu{
@@ -16,4 +17,9 @@
 
 .h-menu >*:hover{
     cursor: pointer;
+}
+
+.companyName{
+    font-weight: 200;
+    font-size: 2.5rem;
 }
