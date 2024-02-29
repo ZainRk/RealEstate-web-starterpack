@@ -1,10 +1,17 @@
-import React from 'react'
+import React from 'react';
+import './Header.css';
+
 
 const Header = () => {
   return (
     <section className="h-wrapper">
-    <div className="flexCenter paddings innerWidth h-container">
-      <img src="./logo.png" alt="logo" width={100}/>
+    <div className="flexCenter paddings h-container">
+      <span>
+      <img src="./mariposa.png" alt="logo" width={20}/>
+    <a href=""><strong><em>Gift of Faith Consultants</em></strong></a>
+      </span>
+      
+      
       <div className="flexCenter h-menu">
         <a href="">Home</a>
         <a href="">About</a>
