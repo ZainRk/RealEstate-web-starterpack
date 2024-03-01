@@ -1,5 +1,4 @@
-
-  [
+export const data = [
     {
       "name": "Aliva Priva Jardin",
       "price": "47,043",
@@ -37,7 +36,3 @@
       "image": "./r3.png"
     }
   ]
-  
-
-
-
