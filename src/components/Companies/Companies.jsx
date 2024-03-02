@@ -8,7 +8,7 @@ const Companies = () => {
             <img src="./UMC_logo.png" alt="UMC Church" />
             <img src="./OKmart-Logo_Transparent.png" alt="OkMart Mall"/>
             <img src="./Gain_logo.png" alt="Gain Masvingo Mall" />
-            <img src="./Zaoga_logo.jpeg" alt="Zaogo Church" />
+            <img src="./Zaoga_logo.png" alt="Zaogo Church" />
         </div>
     </section>
   )

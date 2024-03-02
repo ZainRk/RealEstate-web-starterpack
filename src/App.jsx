@@ -4,6 +4,7 @@ import './App.css'
 import Companies from "./components/Companies/Companies";
 import Residencies from "./components/Residenicies/Residencies";
 import Mission from "./components/Mission/Mission";
+import Services from "./components/Services/Services";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Companies/>
       <Residencies/>
       <Mission/>
+      <Services/>
     </div>
   </div>
   );
