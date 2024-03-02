@@ -2,15 +2,37 @@
     border: 8px solid rgba(241, 8, 8, 0.93);
 } */
 
-/* .v-container>div{
+.v-container>div{
     flex:1;
 }
 
 .v-right{
     gap: 0.5rem;
+}
+
+
+
+.mission-image-container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius:0 4rem 0 4rem;
+    border: 15px solid rgba(7, 0, 0, 0.903);  
+}
+
+
+.mission-image-container>img{
+    height:100%;
+    width:100%;
+    border-radius: 0px;
+    object-fit: cover;
+}
+
+/* img{
+    width:450;
+    height:500;
+    border-radius: 0px;
 } */
 
-.image-container{
-    border: solid;
-    border-radius: 20px;
-}
+
+    

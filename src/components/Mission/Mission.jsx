@@ -8,8 +8,8 @@ const Mission = () => {
         <div className="paddings innerWidth flexCenter v-container">
             {/**left side */}
             <div className="v-left">
-                <div className="image-container">
-                    {/* <img src="./r3.png" alt="" /> */}
+                <div className="mission-image-container">
+                    <img src="./r2.png" alt="" />
                 </div>
             </div>
 

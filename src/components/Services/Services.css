@@ -10,7 +10,18 @@
     gap: 0.7rem;
 }
 
-.image-container{
-    border-radius: 8px 0px;
-    border-color: aquamarine;
+.service-image-container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius:4rem 0rem;
+    border: 15px solid rgba(7, 0, 0, 0.903);  
+}
+
+
+.service-image-container>img{
+    height:100%;
+    width:100%;
+    border-radius: 0px;
+    object-fit: cover;
 }
