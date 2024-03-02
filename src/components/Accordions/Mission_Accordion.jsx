@@ -1,4 +1,4 @@
-import { useState, React, useEffect } from 'react';
+import { useState, React } from 'react';
 import './Accordion.css';
 import{
     Accordion,
@@ -14,7 +14,6 @@ import {MdOutlineArrowDropDown} from 'react-icons/md';
 
 
 const Mission_Accordion = ()=>{
-
     <Accordion
     className='accordion'
     allowMultipleExpanded={true}
@@ -48,9 +47,7 @@ const Mission_Accordion = ()=>{
                 )
             })
         }
-
     </Accordion>
-
 }
 
 export default Mission_Accordion;

@@ -5,6 +5,8 @@ import Companies from "./components/Companies/Companies";
 import Residencies from "./components/Residenicies/Residencies";
 import Mission from "./components/Mission/Mission";
 import Services from "./components/Services/Services";
+import Mission_Accordion from "./components/Accordions/Mission_Accordion";
+import About from "./components/About/About";
 
 
 
@@ -20,6 +22,7 @@ function App() {
       <div className="app_background">
       <Companies/>
       <Residencies/>
+      <About/>
       <Mission/>
       <Services/>
     </div>

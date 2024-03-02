@@ -9,7 +9,7 @@ import{
     AccordionItemState
 } from 'react-accessible-accordion';
 import "react-accessible-accordion/dist/fancy-example.css"
-import data from '../../utils/mission_accordion_data'
+import data from '../../utils/services_accordion_data'
 import {MdOutlineArrowDropDown} from 'react-icons/md';
 
 

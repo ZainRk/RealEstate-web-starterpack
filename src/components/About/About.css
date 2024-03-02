@@ -1,0 +1,57 @@
+.v-container .image-container{
+    border: 8px solid rgb(232 232 232 /93%);
+}
+
+.v-container>div{
+    flex:1;
+}
+
+.v-right{
+    gap: 0.3rem;
+}
+
+.about-image-container{
+    width: 30rem;
+    height: 45rem;
+    overflow: hidden;
+    border-radius:15rem 0rem 0rem 0rem;
+    border: 4px solid rgba(7, 0, 0, 0.903); 
+
+    flex-wrap: wrap; 
+    /* float: left; */
+}
+
+
+.about-image-container>img{
+    height:100%;
+    width:100%;
+    border-radius: 0px;
+    object-fit: cover;
+    float: left;
+}
+
+.about-image-container2{
+    width: 30rem;
+    height: 45rem;
+    overflow: hidden;
+    border-radius:0rem 15rem 0rem 0rem;
+    border: 4px solid rgba(7, 0, 0, 0.903);  
+    display: inline-block;
+    /* float: right; */
+}
+
+
+.about-image-container2>img{
+    height:100%;
+    width:100%;
+    border-radius: 0px;
+    object-fit: cover;
+    display: inline-block;
+    /* float:right; */
+}
+
+.images_container{
+    display: flex;
+    width: 40%;
+    margin-left: 7.5%;
+}
