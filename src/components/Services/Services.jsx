@@ -10,7 +10,7 @@ const Services = () => {
         <div className="paddings innerWidth flexCenter v-container">
        
             {/*left side*/}
-<div className="v-left">
+<div className="v-left flexColStart">
     <span className='orangeText'>Our Mission</span>
     <span className='primaryText'>How we serve</span>
     <span className='secondaryText'>
@@ -26,14 +26,11 @@ const Services = () => {
     </div>
 
      {/**right side */}
-     <div className="flexColStart v-right">
+     <div className="v-right flexColEnd">
                 <div className="image-container">
                     <img src="./value.png" alt="" />
                 </div>
             </div>
-
-
-
         </div>
     </section>
   )

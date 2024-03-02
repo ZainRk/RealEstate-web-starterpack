@@ -1,17 +1,5 @@
-import { useState, React, useEffect } from 'react';
+import { React } from 'react';
 import './Mission.css';
-import{
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-    AccordionItemState
-} from 'react-accessible-accordion';
-import "react-accessible-accordion/dist/fancy-example.css"
-import data from '../../utils/mission_accordion_data'
-
-
 import Mission_Accordion from '../Accordions/Mission_Accordion';
 
 const Mission = () => {
@@ -21,7 +9,7 @@ const Mission = () => {
             {/**left side */}
             <div className="v-left">
                 <div className="image-container">
-                    <img src="./value.png" alt="" />
+                    {/* <img src="./r3.png" alt="" /> */}
                 </div>
             </div>
 

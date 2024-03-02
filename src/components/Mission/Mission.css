@@ -1,11 +1,16 @@
-.v-container .image-container{
-    /* border: 8px solid rgba(19, 1, 1, 0.93); */
-}
+/* .v-container .image-container{
+    border: 8px solid rgba(241, 8, 8, 0.93);
+} */
 
-.v-container>div{
+/* .v-container>div{
     flex:1;
 }
 
 .v-right{
     gap: 0.5rem;
+} */
+
+.image-container{
+    border: solid;
+    border-radius: 20px;
 }
