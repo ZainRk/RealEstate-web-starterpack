@@ -267,6 +267,413 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@juggle/resize-observer@^3.3.0":
+  "integrity" "sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA=="
+  "resolved" "https://registry.npmjs.org/@juggle/resize-observer/-/resize-observer-3.4.0.tgz"
+  "version" "3.4.0"
+
+"@react-md/alert@^5.1.6":
+  "integrity" "sha512-k+o4KZWRlDo+RbLvgK0WEJ/RqUUUxfg9wvmBQqjLOT7Nrg+JunH6+0LlHA/SbGFSp6xORk6737TGjbGPoUsOuw=="
+  "resolved" "https://registry.npmjs.org/@react-md/alert/-/alert-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/button" "^5.1.6"
+    "@react-md/elevation" "^5.1.6"
+    "@react-md/portal" "^5.1.0"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/app-bar@^5.1.6":
+  "integrity" "sha512-z0ewAuyxlarl0TdPFwFphm//V0KxJjgsU29wDCm+czdk1J283cSYR2Uzsk3IWB8yDf++S7tHmAxuMXuH3lROhg=="
+  "resolved" "https://registry.npmjs.org/@react-md/app-bar/-/app-bar-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/button" "^5.1.6"
+    "@react-md/elevation" "^5.1.6"
+    "@react-md/icon" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/autocomplete@^5.1.6":
+  "integrity" "sha512-aZpiz0YP0mIKdDKKH8ECTL3i+yzqeJ0rQFfT7C3ilVF2/uNI1n3AIS4XqQvsgyhVsHGA2LeVLSeMqncvQx6CQw=="
+  "resolved" "https://registry.npmjs.org/@react-md/autocomplete/-/autocomplete-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/form" "^5.1.6"
+    "@react-md/list" "^5.1.6"
+    "@react-md/portal" "^5.1.0"
+    "@react-md/states" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/avatar@^5.1.6":
+  "integrity" "sha512-XD4wI4FCUYpGynkpPSCAVHf9gyQPYeE0Awa6M5sTJDtKxWD0VrO7x+buy5G1yYEGqDI7m1456fAT6gTqFUVO6w=="
+  "resolved" "https://registry.npmjs.org/@react-md/avatar/-/avatar-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/icon" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/badge@^5.1.6":
+  "integrity" "sha512-B312+3t3HP9wUaQebxApoZwwRPm/JW9FfcyF3dWtgjECyonJqYbbIswIHkmWahwbqZvYawdNrQ81RCSO/THc6g=="
+  "resolved" "https://registry.npmjs.org/@react-md/badge/-/badge-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/button" "^5.1.6"
+    "@react-md/icon" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/button@^5.1.6":
+  "integrity" "sha512-FtzS/tJ0Fi/o6wFtRZ8weDOT5bHWuuAWZH1ZSY/fyXN0aVYROMdSNNghXWd32qxoUfWx623HeSD8fZK9ZqTtlw=="
+  "resolved" "https://registry.npmjs.org/@react-md/button/-/button-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/elevation" "^5.1.6"
+    "@react-md/icon" "^5.1.6"
+    "@react-md/states" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/card@^5.1.6":
+  "integrity" "sha512-VFa+KjTKUos6K7zG6bN99aT+CvW0rNs8WZqMzJUg5jTqEyXeWp0j9X438UcG0coIYZr26XeVlcYfVSHIz2sBHA=="
+  "resolved" "https://registry.npmjs.org/@react-md/card/-/card-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/divider" "^5.1.6"
+    "@react-md/elevation" "^5.1.6"
+    "@react-md/icon" "^5.1.6"
+    "@react-md/states" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/chip@^5.1.6":
+  "integrity" "sha512-WnMzNYQpYhCw7BdgzvnZaHqMTph+KlBXoS1S2pppPDVMNVYQTYIi29MwOgvmb4WY8uahxSB9Iy5Hczn+lOaMKg=="
+  "resolved" "https://registry.npmjs.org/@react-md/chip/-/chip-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/elevation" "^5.1.6"
+    "@react-md/icon" "^5.1.6"
+    "@react-md/states" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/dialog@^5.1.6":
+  "integrity" "sha512-s/UJXwJDBw4yk/hz6qJtxJxDd4Tqq7ZZ8HEmJDFbQyiQS7DzpA+VujKZ9mkFYM2ZYGmvq2dXgbuNBlwziOIIPA=="
+  "resolved" "https://registry.npmjs.org/@react-md/dialog/-/dialog-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/app-bar" "^5.1.6"
+    "@react-md/elevation" "^5.1.6"
+    "@react-md/overlay" "^5.1.6"
+    "@react-md/portal" "^5.1.0"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/divider@^5.1.6":
+  "integrity" "sha512-JNzMdeooO/ZuZ/PmB3J4KuvznWTi1ZuuW20KPfd6QjK7BxgQHqpkUwNPaBtlIN9UMZ/Qjhljp5kRTaI8X281/w=="
+  "resolved" "https://registry.npmjs.org/@react-md/divider/-/divider-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/theme" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/elevation@^5.1.6":
+  "integrity" "sha512-H+7qhSPghY576Yc31LJTUNI3gux4Wx5rd7elAdG5hKAofAjX7Oz9RlQtECOWlHFrTlkgiG13BBjfTeOkphL15A=="
+  "resolved" "https://registry.npmjs.org/@react-md/elevation/-/elevation-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+
+"@react-md/expansion-panel@^5.1.6":
+  "integrity" "sha512-iVVvfTHgJUwGm3CddWaqNA7H6acj7dH9FF0E/Irzd4qOpShVgldoe1esF8VgQpMkqkICaYDj4fiumA+Q7ndnYg=="
+  "resolved" "https://registry.npmjs.org/@react-md/expansion-panel/-/expansion-panel-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/button" "^5.1.6"
+    "@react-md/card" "^5.1.6"
+    "@react-md/icon" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/form@^5.1.6":
+  "integrity" "sha512-Q1HWT0Ipo0gjv7ycHd8C3lIvJWe9IgC6b+9/ClaSciNdWTQUHEhp3q/epBb8sRUKVI/GRuVoy/PDQPISCHEmeA=="
+  "resolved" "https://registry.npmjs.org/@react-md/form/-/form-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/button" "^5.1.6"
+    "@react-md/icon" "^5.1.6"
+    "@react-md/list" "^5.1.6"
+    "@react-md/menu" "^5.1.6"
+    "@react-md/portal" "^5.1.0"
+    "@react-md/progress" "^5.1.6"
+    "@react-md/states" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/tooltip" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+    "nanoid" "^3.3.3"
+
+"@react-md/icon@^5.1.6":
+  "integrity" "sha512-VxvDvV9vzLGFnQeeNfSLQU7HQvG1xD6ARuoq4iZUCT0TtKAFdfX0T1yAOZpRKlAMHPIssp8bm0aW02OxUPx47A=="
+  "resolved" "https://registry.npmjs.org/@react-md/icon/-/icon-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/theme" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/layout@^5.1.6":
+  "integrity" "sha512-VscGTgyBKKZJU5K/Rv+6CT9FkRRFUBMbg3SULGmqpyo5QfzN1JAFZCA6IDc/hVH548RAvvaDnv6f9dA6CIcqqg=="
+  "resolved" "https://registry.npmjs.org/@react-md/layout/-/layout-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/app-bar" "^5.1.6"
+    "@react-md/dialog" "^5.1.6"
+    "@react-md/divider" "^5.1.6"
+    "@react-md/form" "^5.1.6"
+    "@react-md/icon" "^5.1.6"
+    "@react-md/link" "^5.1.6"
+    "@react-md/list" "^5.1.6"
+    "@react-md/menu" "^5.1.6"
+    "@react-md/sheet" "^5.1.6"
+    "@react-md/states" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/tooltip" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/tree" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/link@^5.1.6":
+  "integrity" "sha512-IUtrzsaEt2qFhwktKo97WAWbB7jyTR+cQx+VznlXO2Et/U0VKNOqG1TapwBNeQpmiWIy0DA2GSBJzso6cYFELQ=="
+  "resolved" "https://registry.npmjs.org/@react-md/link/-/link-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/states" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/list@^5.1.6":
+  "integrity" "sha512-Y6pYvjW8WG9qxkZ06URhM8wmYtOQsseiRPWOtfdFYnTN3j2xLkI+FZc5flNx9bax4U7lWxImkpY2jB4aioonBg=="
+  "resolved" "https://registry.npmjs.org/@react-md/list/-/list-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/avatar" "^5.1.6"
+    "@react-md/divider" "^5.1.6"
+    "@react-md/icon" "^5.1.6"
+    "@react-md/states" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/material-icons@^5.1.6":
+  "integrity" "sha512-UxBdhTiLSP/pJ6LQwQA83dHxWj1zYtasEHCHaT8vIY3mK1w2lxM5KMpbBahRvHgag9bzsusiLgmBTO/DMBrVKw=="
+  "resolved" "https://registry.npmjs.org/@react-md/material-icons/-/material-icons-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/icon" "^5.1.6"
+
+"@react-md/media@^5.1.6":
+  "integrity" "sha512-6Fo0arkRdpocHedgaZcDW9fYVtJyGMBpIToNL7kjOGJP/89BYJo7h3EboG1wdPtFWPPcxBCQFihFT9DcT/St9A=="
+  "resolved" "https://registry.npmjs.org/@react-md/media/-/media-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/theme" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/menu@^5.1.6":
+  "integrity" "sha512-nW+Ep+44y/5gzLWd66yM6V5degxRHC0driW5skNIxTXaEjqSIvOWIA3caBZ6xhKTE4+dCnDlr6Vo3YUJB/Yl5A=="
+  "resolved" "https://registry.npmjs.org/@react-md/menu/-/menu-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/app-bar" "^5.1.6"
+    "@react-md/button" "^5.1.6"
+    "@react-md/divider" "^5.1.6"
+    "@react-md/elevation" "^5.1.6"
+    "@react-md/icon" "^5.1.6"
+    "@react-md/list" "^5.1.6"
+    "@react-md/portal" "^5.1.0"
+    "@react-md/sheet" "^5.1.6"
+    "@react-md/states" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/overlay@^5.1.6":
+  "integrity" "sha512-0rEQH/cxG5+myqOgSMZqTiHrGU6OlLGxXRakCjjDUeXzmeioe9E7KSwN3FsSmsaZpbD6ayfNS0rQsiHr7gFZuA=="
+  "resolved" "https://registry.npmjs.org/@react-md/overlay/-/overlay-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/portal" "^5.1.0"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/portal@^5.1.0":
+  "integrity" "sha512-f8kY7G2tAFKPXEVqkuBk5Kv1Pk4ICO+ZzC4jLJOISKGaVMs0jVTJfKyngj3/EnI4eYZzKqCO3OACI/3Khl5OyA=="
+  "resolved" "https://registry.npmjs.org/@react-md/portal/-/portal-5.1.0.tgz"
+  "version" "5.1.0"
+
+"@react-md/progress@^5.1.6":
+  "integrity" "sha512-IEe75tpLypVQvvmby6FRWopR/HLZFKF+Y4RtltyZTbBAOXjS2CKnQDIbX/xAjXvjdS3SnRBy/lgQaCgs9TQnmw=="
+  "resolved" "https://registry.npmjs.org/@react-md/progress/-/progress-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/sheet@^5.1.6":
+  "integrity" "sha512-4GBlNlVYYYbXq0HlNiCSfsnysPQDUhZVkEcCyG9uyOMJpKRGI3eJ5jF7hdBOsV2xwApbP6O5oKG5TpfsU9MRug=="
+  "resolved" "https://registry.npmjs.org/@react-md/sheet/-/sheet-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/dialog" "^5.1.6"
+    "@react-md/elevation" "^5.1.6"
+    "@react-md/overlay" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/states@^5.1.6":
+  "integrity" "sha512-GoDWv0xlWgV57ZEiU2dy3axxsiG3sCPinlg2JB4BXJNQ4BzgQJ/YlY1i5sKQ73kevTnbhoCMHrkDAm9T01s8GA=="
+  "resolved" "https://registry.npmjs.org/@react-md/states/-/states-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/table@^5.1.6":
+  "integrity" "sha512-+DTYUPjOJhXpIY64iEltyzyVoua+6uMACqO+O39o2C+U6B6l9UbBINAzAgQ1PvPCPuUA8jBsy/CwoKjKOS9f4Q=="
+  "resolved" "https://registry.npmjs.org/@react-md/table/-/table-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/button" "^5.1.6"
+    "@react-md/divider" "^5.1.6"
+    "@react-md/form" "^5.1.6"
+    "@react-md/icon" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/tabs@^5.1.6":
+  "integrity" "sha512-979BNaC6JU+zP7j+1SkCEeWjDhsRLIMLyhWItk0SCbimGnH95RSfXwWZAGP8HQVCBQOtnqjPracgYefFzMh1bw=="
+  "resolved" "https://registry.npmjs.org/@react-md/tabs/-/tabs-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/icon" "^5.1.6"
+    "@react-md/states" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/theme@^5.1.6":
+  "integrity" "sha512-1F4nhG44xGTmlymbMLZlDmon+NY5Br8TvFkzabh6CvUzD61x5dwzAD1dCM4EuQCKNQNDg/qn68jNz1h7eg/vyg=="
+  "resolved" "https://registry.npmjs.org/@react-md/theme/-/theme-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/utils" "^5.1.6"
+
+"@react-md/tooltip@^5.1.6":
+  "integrity" "sha512-CZSSmDNXur1PJpYZa23Mtq50wYe4XOAV2kGjOvGL7/tUr/eqAA8SIpdmwktwGOACOxdIivR2GUk4P9JCUI/6/Q=="
+  "resolved" "https://registry.npmjs.org/@react-md/tooltip/-/tooltip-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/portal" "^5.1.0"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/transition@^5.1.6":
+  "integrity" "sha512-kuNf/y2B7f4MnGmegOoK9vM9mDNkw0MJLll6mPFNjrruIt2TlMTs25cC9DLI9GNQ6JWOibab0e7CqqrnqIgrFA=="
+  "resolved" "https://registry.npmjs.org/@react-md/transition/-/transition-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/portal" "^5.1.0"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/tree@^5.1.6":
+  "integrity" "sha512-kIV6nKe3BIdFErWY3cmuHFCc4oD7UelzVobFnQY1aFkRft0FtBACUEaVlrxTdVKUkpKLUAo/D8JohCYtYoYKvg=="
+  "resolved" "https://registry.npmjs.org/@react-md/tree/-/tree-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/icon" "^5.1.6"
+    "@react-md/list" "^5.1.6"
+    "@react-md/states" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/typography@^5.1.6":
+  "integrity" "sha512-LXDYVivv+KDRXoux+OSmhJo3nLa+5Eq5l+wfUarif6n4MVFchi1oP2XCZQwgEfD81ZGExIfQ9n+1jwHSr/4ltg=="
+  "resolved" "https://registry.npmjs.org/@react-md/typography/-/typography-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/theme" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+    "classnames" "^2.3.1"
+
+"@react-md/utils@^5.1.6":
+  "integrity" "sha512-ZrhKOkIcqEzMb3SotRg+RP/uzSE4atbRqfhSBeSn2Wbli94sTxmNihNACrVCE8fZ9UTaeipIogcOs90l8E16Yw=="
+  "resolved" "https://registry.npmjs.org/@react-md/utils/-/utils-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@juggle/resize-observer" "^3.3.0"
+    "classnames" "^2.3.1"
+
 "@types/prop-types@*":
   "integrity" "sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w=="
   "resolved" "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
@@ -380,6 +787,11 @@
     "ansi-styles" "^3.2.1"
     "escape-string-regexp" "^1.0.5"
     "supports-color" "^5.3.0"
+
+"classnames@^2.3.1":
+  "integrity" "sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow=="
+  "resolved" "https://registry.npmjs.org/classnames/-/classnames-2.5.1.tgz"
+  "version" "2.5.1"
 
 "color-convert@^1.9.0":
   "integrity" "sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg=="
@@ -813,7 +1225,7 @@
   "resolved" "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
   "version" "2.1.2"
 
-"nanoid@^3.3.4":
+"nanoid@^3.3.3", "nanoid@^3.3.4":
   "integrity" "sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw=="
   "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz"
   "version" "3.3.4"
@@ -923,7 +1335,7 @@
   dependencies:
     "countup.js" "^2.8.0"
 
-"react-dom@^0.14 || >=15", "react-dom@^16.3.3 || ^17.0.0 || ^18.0.0", "react-dom@^18.0.0", "react-dom@^18.2.0":
+"react-dom@^0.14 || >=15", "react-dom@^16.3.3 || ^17.0.0 || ^18.0.0", "react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@>= 16.14":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -941,6 +1353,45 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
+"react-md@^5.1.6":
+  "integrity" "sha512-+Z63TciwQ0UyJiTGTWeBhJZ7IQznBbb/rbOwSjmhxeZjC+HV0rDQzams7M2VTg24hMXw1aYAUUita5Ha2gZv3Q=="
+  "resolved" "https://registry.npmjs.org/react-md/-/react-md-5.1.6.tgz"
+  "version" "5.1.6"
+  dependencies:
+    "@react-md/alert" "^5.1.6"
+    "@react-md/app-bar" "^5.1.6"
+    "@react-md/autocomplete" "^5.1.6"
+    "@react-md/avatar" "^5.1.6"
+    "@react-md/badge" "^5.1.6"
+    "@react-md/button" "^5.1.6"
+    "@react-md/card" "^5.1.6"
+    "@react-md/chip" "^5.1.6"
+    "@react-md/dialog" "^5.1.6"
+    "@react-md/divider" "^5.1.6"
+    "@react-md/elevation" "^5.1.6"
+    "@react-md/expansion-panel" "^5.1.6"
+    "@react-md/form" "^5.1.6"
+    "@react-md/icon" "^5.1.6"
+    "@react-md/layout" "^5.1.6"
+    "@react-md/link" "^5.1.6"
+    "@react-md/list" "^5.1.6"
+    "@react-md/material-icons" "^5.1.6"
+    "@react-md/media" "^5.1.6"
+    "@react-md/menu" "^5.1.6"
+    "@react-md/overlay" "^5.1.6"
+    "@react-md/portal" "^5.1.0"
+    "@react-md/progress" "^5.1.6"
+    "@react-md/sheet" "^5.1.6"
+    "@react-md/states" "^5.1.6"
+    "@react-md/table" "^5.1.6"
+    "@react-md/tabs" "^5.1.6"
+    "@react-md/theme" "^5.1.6"
+    "@react-md/tooltip" "^5.1.6"
+    "@react-md/transition" "^5.1.6"
+    "@react-md/tree" "^5.1.6"
+    "@react-md/typography" "^5.1.6"
+    "@react-md/utils" "^5.1.6"
+
 "react-outside-click-handler@^1.3.0":
   "integrity" "sha512-Te/7zFU0oHpAnctl//pP3hEAeobfeHMyygHB8MnjP6sX5OR8KHT1G3jmLsV3U9RnIYo+Yn+peJYWu+D5tUS8qQ=="
   "resolved" "https://registry.npmjs.org/react-outside-click-handler/-/react-outside-click-handler-1.3.0.tgz"
@@ -957,7 +1408,7 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.0.tgz"
   "version" "0.14.0"
 
-"react@*", "react@^0.14 || ^15.0.0 || ^16.0.0-alpha", "react@^0.14 || >=15", "react@^16.3.2 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16.3.0":
+"react@*", "react@^0.14 || ^15.0.0 || ^16.0.0-alpha", "react@^0.14 || >=15", "react@^16.3.2 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16.14", "react@>= 16.3.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"

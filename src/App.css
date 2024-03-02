@@ -1,6 +1,6 @@
 .App{
     position: relative;
-    overflow-x: clip;
+    overflow-x: clip;  
 }
 
 .App>:nth-child(1){
@@ -16,4 +16,14 @@
     filter: blur(200px);
     border-radius: 100px;
     z-index:2;
+}
+
+.app_background{
+    background-image: url("construction_blueprint2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover; 
+    opacity:0.95;
+    z-index:-1;
+    max-height: 6000px;
 }
