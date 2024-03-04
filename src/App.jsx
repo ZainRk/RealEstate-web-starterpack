@@ -7,7 +7,7 @@ import Mission from "./components/Mission/Mission";
 import Services from "./components/Services/Services";
 import Mission_Accordion from "./components/Accordions/Mission_Accordion";
 import About from "./components/About/About";
-
+import Team from "./components/Team/Team";
 
 
 function App() {
@@ -21,10 +21,11 @@ function App() {
       </div>
       <div className="app_background">
       <Companies/>
-      <Residencies/>
-      <About/>
+       <Residencies/>
+       <Team/>
+      {/*<About/>
       <Mission/>
-      <Services/>
+      <Services/> */}
     </div>
   </div>
   );

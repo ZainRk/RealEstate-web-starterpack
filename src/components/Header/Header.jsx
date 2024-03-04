@@ -16,8 +16,8 @@ const Header = () => {
         <a href="">Home</a>
         <a href="">Projects</a>
         {/* <a href="">Mission</a> */}
+        <a href="">Team</a>
         <a href="">About</a>
-        <a href="">Services</a>
         <button className="button">
         <a href="">Contact</a>
         </button>

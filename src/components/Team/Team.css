@@ -1,0 +1,104 @@
+/* .team_panel{
+    background-color: red;
+    width: 50rem;
+    height: 12rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.card{
+    max-width: 30em;
+    flex-direction: row;
+}
+
+.card img{
+    max-width: 25%;
+    margin: auto;
+    padding: 0.5rem;
+    flex-direction: column;
+    
+}
+
+
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-section{
+    max-width: 60%;
+}
+
+.cta-section{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+} */
+
+/* .left-image{
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.description{
+    text-align: center;
+} */
+
+.row {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .image-section {
+    /* flex: 30%; */
+    width:30%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    background-color: aqua;
+    text-align: center;
+    display: inline-block;
+    max-width: 100%;
+    min-width: 150px;
+  }
+
+  .text-section {
+    /* flex: 70%; */
+    width:70%;
+    margin-top: 3rem;
+    align-items: flex-start;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    display: inline-block;
+    max-width: 100%;
+    min-width: 300px;
+  }
+
+  .container{
+    background-color: bisque;
+    height: 300px;
+  }
+
+
+  .card-img-top{
+    border-radius: 50%; 
+    display: flex;
+    width: 15rem;
+    height: 12rem;
+   max-width: 100%;
+   min-width: 100px;
+}
+
+/* 
+@media screen and (max-width: 200px) {
+    .image-section {
+      width: 30%;
+    }
+    .text-section {
+        width: 70%;
+      }
+  } */
