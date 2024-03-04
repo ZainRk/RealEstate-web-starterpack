@@ -50,7 +50,8 @@
 } */
 
 .row {
-    display: flex;
+    /* display: flex; */
+    text-align: center;
   }
   
   /* Create two equal columns that sits next to each other */
@@ -66,16 +67,30 @@
     min-width: 150px;
   }
 
-  .text-section {
+  .text-section-a {
+    /* flex: 70%; */
+    width:fit-content;
+    margin-top: 3rem;
+    align-items: center;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    display: inline-block;
+    max-width: 100%;
+    min-width: 100px;
+    font-size: 30px;
+  }
+
+  .text-section-b {
     /* flex: 70%; */
     width:70%;
     margin-top: 3rem;
-    align-items: flex-start;
+    align-items: center;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
     display: inline-block;
     max-width: 100%;
     min-width: 300px;
+   font-size: 30px;
   }
 
   .container{
@@ -93,7 +108,7 @@
    min-width: 100px;
 }
 
-/* 
+
 @media screen and (max-width: 200px) {
     .image-section {
       width: 30%;
@@ -101,4 +116,4 @@
     .text-section {
         width: 70%;
       }
-  } */
+  } 

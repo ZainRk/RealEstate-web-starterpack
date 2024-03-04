@@ -55,3 +55,43 @@
     width: 40%;
     margin-left: 7.5%;
 }
+
+h1{
+    text-align: center;
+}
+
+
+
+
+.history_column {
+    float: left;
+    width: 27.5%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    /* background-color:#aaa; */
+    margin-left: 9%;
+  }
+
+  .mission_column {
+    float: left;
+    width: 27.5%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    /* background-color:#bbb; */
+  }
+
+
+  .services_column {
+    float: left;
+    width: 27.5%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    /* background-color:#ccc; */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

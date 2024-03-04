@@ -23,8 +23,8 @@ function App() {
       <Companies/>
        <Residencies/>
        <Team/>
-      {/*<About/>
-      <Mission/>
+      <About/>
+      {/*<Mission/>
       <Services/> */}
     </div>
   </div>
