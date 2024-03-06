@@ -7,27 +7,15 @@ const Team = () => {
   return (
  
     <div>
+
       <h1>Meet the Team!</h1>
-      <div className="container">
+      <div className='super-container'>
       <div className="row">
-          <div className="image-section">
-            <img className="card-img-top" src="./businesswoman.jpeg" alt="" />
-            <h2>Column 1</h2>
-            <p>Some text..</p>
-          </div>
-      <div className="text-section-a">
+      <div className="container">
+      <div className="text-section">
           <h2>Column 2</h2>
         <p>Some text..</p>
         </div>
-       </div>
-      </div>
-      <br/>
-
-      <div className="container">
-      <div className="row">
-      <div className="text-section-b">
-          <h2>Column 2</h2>
-        <p>Some text..</p>
         </div>
           <div className="image-section">
             <img className="card-img-top" src="./businesswoman.jpeg" alt="" />
@@ -37,38 +25,25 @@ const Team = () => {
        </div>
       </div>
       <br/>
+      <br/>
 
-      <div className="container">
+      <div className='super-container-b'>
       <div className="row">
-          <div className="image-section">
+      <div className="container-b">
+      <div className="text-section">
+          <h2>Column 2</h2>
+        <p>Some text..</p>
+        </div>
+        </div>
+      <div className="image-section-b">
             <img className="card-img-top" src="./businesswoman.jpeg" alt="" />
             <h2>Column 1</h2>
             <p>Some text..</p>
           </div>
-      <div className="text-section-a">
-          <h2>Column 2</h2>
-        <p>Some text..</p>
-        </div>
+
        </div>
       </div>
       <br/>
-
-      <div className="container">
-      <div className="row">
-      <div className="text-section-b">
-          <h2>Column 2</h2>
-        <p>Some text..</p>
-        </div>
-          <div className="image-section">
-            <img className="card-img-top" src="./businesswoman.jpeg" alt="" />
-            <h2>Column 1</h2>
-            <p>Some text..</p>
-          </div>
-       </div>
-      </div>
-      <br/>
-
-
     </div> 
   )
 }

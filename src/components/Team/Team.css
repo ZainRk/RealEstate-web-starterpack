@@ -1,53 +1,4 @@
-/* .team_panel{
-    background-color: red;
-    width: 50rem;
-    height: 12rem;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem;
-    border-radius: 5px;
-}
 
-.card{
-    max-width: 30em;
-    flex-direction: row;
-}
-
-.card img{
-    max-width: 25%;
-    margin: auto;
-    padding: 0.5rem;
-    flex-direction: column;
-    
-}
-
-
-
-.card-body{
-    display: flex;
-    justify-content: space-between;
-}
-
-.text-section{
-    max-width: 60%;
-}
-
-.cta-section{
-    max-width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-between;
-} */
-
-/* .left-image{
-    align-items: flex-start;
-    justify-content: left;
-}
-
-.description{
-    text-align: center;
-} */
 
 .row {
     /* display: flex; */
@@ -57,7 +8,8 @@
   /* Create two equal columns that sits next to each other */
   .image-section {
     /* flex: 30%; */
-    width:30%;
+    /* float: left; */
+    width:25%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
     background-color: aqua;
@@ -65,38 +17,96 @@
     display: inline-block;
     max-width: 100%;
     min-width: 150px;
+    position: absolute;
+  }
+
+
+  .image-section-b {
+    width:25%;
+    margin-left: 60%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    background-color: aqua;
+    text-align: center;
+    display: inline-block;
+    max-width: 100%;
+    min-width: 150px;
+    position: absolute;
+  }
+
+
+
+  .container{
+    background-color: red;
+    height: 300px;
+    width:75%;
+    display: inline-block;
+    min-width: 500px;
+  }
+
+
+  .container-b{
+    background-color: red;
+    height: 300px;
+    width:75%;
+    display: inline-block;
+    min-width: 500px;
+  }
+
+  .super-container{
+    width:50%;
+    position: relative;
+    margin-left: 25%;
+    min-width: 400px;
+    display: inline-block;
+  }
+
+  .super-container-b{
+    width:50%;
+    position: relative;
+    margin-left: 25%;
+    min-width: 400px;
+    display: inline-block;
+  }
+
+  .image-section-b {
+    /* flex: 30%; */
+    /* float: right; */
+    width:30%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    background-color: aqua;
+    text-align: center;
+    /* display: inline-block; */
+    max-width: 100%;
+    min-width: 150px;
   }
 
   .text-section-a {
     /* flex: 70%; */
-    width:fit-content;
-    margin-top: 3rem;
-    align-items: center;
+    /* width:fit-content; */
+    float: left;
+    /* margin-top: 3rem; */
+    /* align-items: center; */
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
-    display: inline-block;
-    max-width: 100%;
-    min-width: 100px;
-    font-size: 30px;
   }
 
   .text-section-b {
     /* flex: 70%; */
+    float: left;
     width:70%;
     margin-top: 3rem;
     align-items: center;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
-    display: inline-block;
+    /* display: inline-block; */
     max-width: 100%;
     min-width: 300px;
    font-size: 30px;
   }
 
-  .container{
-    background-color: bisque;
-    height: 300px;
-  }
+
 
 
   .card-img-top{
