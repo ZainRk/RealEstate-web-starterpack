@@ -1,0 +1,30 @@
+.App{
+    position: relative;
+    overflow-x: clip;  
+}
+
+.App>:nth-child(1){
+    background: var(--black);
+    position: relative;
+}
+
+.white-gradient{
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background: rgba(255, 255, 255, 0.522);
+    filter: blur(200px);
+    border-radius: 100px;
+    z-index:2;
+}
+
+/* .app_background{
+    background-image: url("construction_blueprint2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover; 
+    opacity:0.95;
+    z-index:-1;
+    height: 100%;
+    max-height: 6000rem;
+} */

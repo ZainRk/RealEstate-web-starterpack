@@ -1,0 +1,25 @@
+.h-wrapper{
+    background: var(--black);
+    color: white;
+}
+
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);
+    
+}
+
+.h-menu{
+    gap: 2rem;
+}
+
+.h-menu >*:hover{
+    cursor: pointer;
+}
+
+.companyName{
+    font-weight: 200;
+    font-size: 2.5rem;
+}

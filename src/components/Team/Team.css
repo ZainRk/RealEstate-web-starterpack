@@ -1,0 +1,139 @@
+
+
+.row {
+    display: flex;
+    text-align: center;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .image-section {
+    width:25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    background-color: #f5f5f4;
+    text-align: center;
+    display: inline-block;
+    max-width: 100%;
+    min-width: 150px;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+
+
+  .container-b{
+    width: 26%;
+    height: 300px; 
+    background: #f5f5f4;
+    max-width: 100%;
+    min-width: 150px;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 2px 10px 12px 0px rgba(0, 0, 0, .75);
+
+  }
+
+
+  .image-section-c {
+    /* width: 615px;  */
+    /* width: 64.0625%; */
+    width:71%;
+    height: 300px;
+    float: left;
+    background: white;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 2px 10px 12px 0px rgba(0, 0, 0, .75);
+    /* max-width: 525px; */
+  }
+
+
+
+  .container{
+    background-color: white;
+    height: 300px;
+    width:75%;
+    margin-right: 3%;
+    display: inline-block;
+    min-width: 500px;
+    border-radius: 0px 20px 20px 0px;
+    /* box-shadow: 16px 1px 12px 0px rgba(0, 0, 0, .75); */
+    box-shadow: -45px 1px 12px 0px rgba(0, 0, 0, .75), 16px 1px 12px 0px rgba(0, 0, 0, .75);
+   
+  }
+
+
+
+
+  .super-container{
+    width:50%;
+    position: relative;
+    margin-left: 25%;
+    min-width: 630px;
+    display: inline-block;
+  }
+
+  .super-container-b{
+    width:50%;
+    position: relative;
+    margin-left: 22%;
+    min-width: 630px;
+    display: inline-block;
+  }
+
+  .image-section-b {
+    /* flex: 30%; */
+    /* float: right; */
+    width:30%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    background-color: aqua;
+    text-align: center;
+    /* display: inline-block; */
+    max-width: 100%;
+    min-width: 150px;
+  }
+
+  .text-section-a {
+    /* flex: 70%; */
+    /* width:fit-content; */
+    float: left;
+    /* margin-top: 3rem; */
+    /* align-items: center; */
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  .text-section-b {
+    /* flex: 70%; */
+    float: left;
+    width:70%;
+    margin-top: 3rem;
+    align-items: center;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    /* display: inline-block; */
+    max-width: 100%;
+    min-width: 300px;
+   font-size: 30px;
+  }
+
+
+
+
+  .card-img-top{
+    border-radius: 50%; 
+    display: flex;
+    width: 15rem;
+    height: 12rem;
+   max-width: 100%;
+   min-width: 100px;
+}
+
+
+@media screen and (max-width: 200px) {
+    .image-section {
+      width: 30%;
+    }
+    .text-section {
+        width: 70%;
+      }
+  } 
