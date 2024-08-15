@@ -1,0 +1,21 @@
+.c-wrapper {
+  background-color: white;
+}
+.c-container {
+  justify-content: space-around;
+  gap: 1rem;
+}
+.c-container > img {
+  width: 9rem;
+}
+@media (max-width: 600px) {
+  .c-container {
+    flex-direction: flex;
+    width: 100%;
+  }
+  .c-container > img {
+    width: 35%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }
+}

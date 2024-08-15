@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "Gaming Laptop",
+    "price": 335
+  },
+  {
+    "id": 2,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "Macbook M1 Air",
+    "price": 450
+  },
+  {
+    "id": 3,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "PlayStation 5 Console",
+    "price": 200
+  },
+  {
+    "id": 4,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "Gaming Laptop",
+    "price": 335
+  },
+  {
+    "id": 5,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "Gaming Laptop",
+    "price": 335
+  },
+  {
+    "id": 6,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "Macbook M1 Air",
+    "price": 450
+  },
+  {
+    "id": 7,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "PlayStation 5 Console",
+    "price": 200
+  },
+  {
+    "id": 8,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "Gaming Laptop",
+    "price": 335
+  },
+  {
+    "id": 9,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "Gaming Laptop",
+    "price": 335
+  },
+  {
+    "id": 10,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "Macbook M1 Air",
+    "price": 450
+  },
+  {
+    "id": 11,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "PlayStation 5 Console",
+    "price": 200
+  },
+  {
+    "id": 12,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "Gaming Laptop",
+    "price": 335
+  },
+  {
+    "id": 13,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "Gaming Laptop",
+    "price": 335
+  },
+  {
+    "id": 14,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "Macbook M1 Air",
+    "price": 450
+  },
+  {
+    "id": 15,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "PlayStation 5 Console",
+    "price": 200
+  },
+  {
+    "id": 16,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_template_2_-_2020-11-23t113708.928.jpg",
+    "title": "Gaming Laptop",
+    "price": 335
+  }
+]

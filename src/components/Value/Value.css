@@ -1,0 +1,81 @@
+.v-container .image-container {
+  border: 8px solid rgb(232 232 232 / 93%);
+  border-radius: 100px 100px 0 0;
+}
+
+.v-container > div {
+  flex: 1;
+}
+.v-right {
+  gap: 0.5rem;
+}
+.accordion {
+  margin-top: 2rem;
+  border: none;
+}
+.accordionItem {
+  background: white;
+  border: 0.8px solid rgba(128, 128, 128, 0.143);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.accordionItem.expanded {
+  box-shadow: var(--shadow);
+  border-radius: 6px;
+}
+.accordionButton {
+  background: white;
+  padding: 1rem;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.icon {
+  padding: 10px;
+  background: #eeeeff;
+  border-radius: 5px;
+}
+.icon svg {
+  fill: var(--blue);
+}
+.accordionButton .primaryText {
+  font-size: 1.1rem;
+}
+
+/**H2 with blob**/
+.value-h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #000;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.value-h2::before {
+  content: "";
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  width: calc(50% + 2rem);
+  height: calc(100% + 2rem);
+  background-image: url("./blob(1)(1).svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+@media (max-width: 1024px) {
+  .v-container {
+    flex-direction: column;
+  }
+  @media (max-width: 768px) {
+    .accordionButton .primaryText {
+      font-size: 0.8rem;
+    }
+  }
+}
