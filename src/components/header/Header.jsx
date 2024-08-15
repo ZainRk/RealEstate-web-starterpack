@@ -27,7 +27,7 @@ const Header = () => {
             <Link to="/properties">Properties</Link>
             <Link to="*">Blog</Link>
             <button className="button">
-              <Link to="/home">Contact</Link>
+              <Link to="/Contact">Contact</Link>
             </button>
           </div>
         </OutsideClickHandler>

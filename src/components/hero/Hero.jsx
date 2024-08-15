@@ -76,7 +76,9 @@ const Hero = () => {
         </div>
         {/*Right Side*/}
         <div className="flexCenter hero-right">
-          <Carousel images={["./r6.jpg", "./image2.jpg", "./image3.jpg"]} />
+          <div className="image-container">
+            <Carousel images={["./r3.jpg", "./r5.jpg", "./r2.png"]} />
+          </div>
         </div>
       </div>
     </section>

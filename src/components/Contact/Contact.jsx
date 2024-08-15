@@ -1,33 +1,36 @@
-import React, { useState, useEffect } from "react";
-import "./contact.css";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import "./Contact.css";
 
-const Contact = ({ images }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+export const Contact = () => {
+  const form = useRef();
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((currentIndex + 1) % images.length);
-    }, 3000); // Change slide every 3 seconds
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    return () => clearInterval(interval);
-  }, [currentIndex, images.length]);
+    emailjs
+      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, {
+        publicKey: "YOUR_PUBLIC_KEY",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
 
   return (
-    <div className="carousel">
-      <div className="carousel-inner">
-        {images.map((image, index) => (
-          <div
-            key={index}
-            className={`carousel-item ${
-              index === currentIndex ? "active" : ""
-            }`}
-          >
-            <img src={image} alt={`Slide ${index + 1}`} />
-          </div>
-        ))}
-      </div>
-    </div>
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
   );
 };
-
-export default Contact;

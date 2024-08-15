@@ -2,9 +2,10 @@
   width: 78px;
   height: 78px;
   margin: auto;
-  margin-top: calc(20%);
-  position: relative;
-  transform: rotateZ(45deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: rotateZ(45deg) translate(-50%, -50%);
 }
 
 .cssload-thecube .cssload-cube {

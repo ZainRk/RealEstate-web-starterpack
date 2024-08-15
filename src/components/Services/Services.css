@@ -1,0 +1,82 @@
+/* Service Section */
+.service-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.service-card {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 300px;
+  text-align: left;
+}
+
+.service-card:hover {
+  scale: 1.025;
+  cursor: pointer;
+  box-shadow: 0px 72px 49px 49px -51px rgba(136, 160, 255, 0.21);
+}
+
+.service-icon {
+  color: #007bff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.service-rating {
+  color: gold;
+  font-size: 1.2rem;
+}
+.services-h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 20rem;
+  color: #000;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.services-h2::before {
+  content: "";
+  position: absolute;
+  top: -1rem;
+  left: 18rem;
+  width: calc(50% + 2rem);
+  height: calc(100% + 2rem);
+  background-image: url("./blob(1)(1).svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .service-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -18,7 +18,7 @@ const Carousel = ({ images }) => {
       {images.map((image, index) => (
         <motion.div
           key={index}
-          initial={{ x: "7rem", opacity: 0 }}
+          initial={{ x: "7rem", opacity: 1 }}
           animate={index === currentIndex ? { x: 0, opacity: 1 } : {}}
           transition={{
             duration: 2,
@@ -26,7 +26,7 @@ const Carousel = ({ images }) => {
           }}
           className={`carousel-slide ${index === currentIndex ? "active" : ""}`}
         >
-          <img src={image} alt="" />
+          <img src={image} alt="Not Found" />
         </motion.div>
       ))}
     </div>

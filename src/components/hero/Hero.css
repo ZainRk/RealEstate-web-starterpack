@@ -18,7 +18,7 @@
 .hero-title > h1 {
   font-weight: 600;
   font-size: 3.8rem;
-  line-height: 4rem;
+  line-height: 3rem;
 }
 .orange-circle {
   height: 6rem;
@@ -55,7 +55,8 @@
 /*Right Side*/
 .image-container {
   width: 30rem;
-  height: 35rem;
+  height: 30rem;
+  transform: translateY(-2rem);
   overflow: hidden;
   border-radius: 100px;
   border: 8px solid rgba(255, 255, 255, 0.12);

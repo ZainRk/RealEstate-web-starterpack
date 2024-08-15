@@ -3,6 +3,7 @@ import Header from "../components/header/Header";
 import "../components/Style/Style.css";
 import "../App.css";
 import data from "../TemplateData.json";
+import GetStarted from "../components/GetStarted/GetStarted";
 import Footer from "../components/footer/Footer";
 
 const Properties = () => {
@@ -44,6 +45,9 @@ const Properties = () => {
               })}
           </div>
         </div>
+      </div>
+      <div className="gts">
+        <GetStarted />
       </div>
       <Footer />
     </div>
